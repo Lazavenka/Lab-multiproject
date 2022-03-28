@@ -1,0 +1,11 @@
+allprojects {
+    group 'com.epam.laboratory'
+    version '1.0-SNAPSHOT'
+}
+
+subprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
